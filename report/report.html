@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Support AI Report</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #4a4a8a;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .highlight {
+            background: #e6f7ff;
+            padding: 10px;
+            border-left: 5px solid #1890ff;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🤖 AI-Powered Customer Support Intelligence Platform</h1>
+    <p>🚀 Final Project Report</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>📌 Project Overview</h2>
+<p>
+This project builds an intelligent AI system to automate customer support ticket analysis using NLP and Machine Learning.
+</p>
+<ul>
+<li>🔍 Ticket Classification</li>
+<li>⚡ Priority Prediction</li>
+<li>⏱️ Resolution Time Prediction</li>
+<li>📊 Customer Segmentation</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>📅 Day 1: Data Cleaning</h2>
+<ul>
+<li>🧹 Removed irrelevant columns</li>
+<li>⚠️ Handled missing values</li>
+<li>📅 Date feature extraction</li>
+<li>📏 Created text length features</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>📊 Day 2: EDA</h2>
+<ul>
+<li>⚖️ Balanced dataset</li>
+<li>📉 Resolution time mostly 0–10 hrs</li>
+<li>📡 Multi-channel support usage</li>
+<li>⭐ Mixed customer satisfaction</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🧠 Day 3: NLP Preprocessing</h2>
+<ul>
+<li>🔡 Lowercasing + cleaning</li>
+<li>🚫 Stopwords removal</li>
+<li>📚 Lemmatization</li>
+<li>🔗 Created <b>final_text</b></li>
+<li>📊 TF-IDF (5000 features)</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🤖 Day 4-5: ML Models</h2>
+<ul>
+<li>📉 Logistic Regression (~20%)</li>
+<li>📈 Naive Bayes (~24.5%) ✅ Best</li>
+<li>🌳 Random Forest (~23%)</li>
+</ul>
+
+<div class="highlight">
+⚠️ Insight: Dataset is repetitive → limits performance
+</div>
+</div>
+
+<div class="card">
+<h2>🔥 Day 7: DistilBERT</h2>
+<ul>
+<li>🚀 Transformer-based model</li>
+<li>📊 F1 Score ≈ 0.18–0.20</li>
+<li>📉 Confusion Matrix created</li>
+</ul>
+
+<div class="highlight">
+💡 Insight: Handles context better than ML models
+</div>
+</div>
+
+<div class="card">
+<h2>📊 Day 8: Regression & Clustering</h2>
+
+<h3>⏱️ Regression</h3>
+<ul>
+<li>📉 RMSE ≈ 26</li>
+<li>❌ Negative R²</li>
+</ul>
+
+<div class="highlight">
+⚠️ Text alone is not enough for regression
+</div>
+
+<h3>🧩 Clustering</h3>
+<ul>
+<li>🔵 Cluster 1: Simple issues</li>
+<li>🟡 Cluster 2: Moderate issues</li>
+<li>🔴 Cluster 3: Complex issues</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>💡 Business Insights</h2>
+<ul>
+<li>🛠️ Technical issues take longer</li>
+<li>💳 Billing resolved faster</li>
+<li>📊 Customer issues vary in complexity</li>
+<li>🤔 Text data is ambiguous</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🏁 Final Conclusion</h2>
+<p>
+The system successfully demonstrates an end-to-end AI solution for customer support automation.
+DistilBERT proved to be the strongest model.
+</p>
+
+<div class="highlight">
+🚀 Future Improvements:
+<ul>
+<li>⚡ XGBoost for regression</li>
+<li>📦 Add structured features</li>
+<li>🌐 Deploy using FastAPI</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<footer>
+    💼 Developed for AI/ML Final Project |
+</footer>
+
+</body>
+</html>
